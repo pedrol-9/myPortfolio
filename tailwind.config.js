@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-export default {
+module.exports = {
   darkMode: 'class', // o 'media' si prefieres detectar el modo oscuro automáticamente
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -14,6 +14,9 @@ export default {
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+    // otros plugins
+  ],
 }
 
