@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+/* COLORES 
+
+#002147 (Oxford Blue)
+#1D2951 (Space Cadet)
+#2d3748 (Gray-800 fondo de la pagina)
+*/ 
